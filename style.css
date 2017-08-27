@@ -1,0 +1,53 @@
+*{
+	padding: 5px;
+}
+body header{
+	background-color: rgba(74,198,183,0.9);
+	color: white;
+	font-size: 13px;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+body{
+	background-color: #DCDCDC;
+	color: #581845;
+	font-family: 'Rock Salt', cursive;
+
+}
+
+footer{
+	background-color: white;
+}
+
+.link{
+	font-size: 10px;
+	font-family: "Lato", sans-serif;
+}
+
+p{
+	color: black;
+	font-family: "Lato", sans-serif;
+	font-size: 10px;
+}
+
+.social span{
+	font-size: 20px;
+		
+}
+
+.facebook:hover{
+	background: #3b5998;
+}
+}
+
+.linkedin:hover{
+	background: #007bb5;
+}
+
+form{
+	font-family: "Lato", sans-serif;
+}
+
+.cuerpo{
+	text-align: center;
+}
