@@ -1,10 +1,9 @@
 *{
     margin: 0;
-    padding: 0;
-    font-family: 'Roboto', arial ,sans-serif; 
+    padding: 0; 
 }
 header{
-    padding: 68px ;
+    padding: 78px ;
     text-align: center;
     background-image: url("http://www.denazaret.net/wp-content/uploads/2015/04/paisaje.jpg");
     background-repeat: no-repeat;
@@ -13,9 +12,6 @@ header{
     background-attachment: fixed;
 }   
 
-body{ 
-    font-family: 'Roboto', sans-serif; 
-}
 
 .flex-container {
     display: flex;
@@ -28,7 +24,7 @@ body{
 h1{
     text-align: left;
     font-size: 60px;
-    font-family: 'Bungee Shade', cursive;
+    font-family:'Permanent Marker', cursive;
     color: #260404;
 }
 a{
@@ -65,11 +61,17 @@ section{
 
 h2{
     padding:10px;
-    font-family: "Dosis" , italic, sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
+    text-transform: uppercase;
+    color: yellow ;
 }
 p{
-    color: black solid;
+    color: lightblue solid;
+    font-family:'Hind Siliguri', sans-serif;
+}
+h3{
+     font-family: 'Permanent Marker', cursive;
 }
 .profile{
     margin:25px;
@@ -317,4 +319,22 @@ p{
     .text{
         display: none;
     }
+}
+
+i.heart{
+    width: 30px;
+    border-radius: 50%;
+    border: red dashed ;
+    color: red;
+}
+
+img.perfil{
+    width: 100px;
+    height: 100px;
+    padding-left: 320px;
+}
+i.uno{
+    border-radius: 50%;
+    border:lightseagreen solid;
+    color: lightseagreen;
 }
